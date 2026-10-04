@@ -24,6 +24,7 @@ A control unit that runs a stored list of microinstructions for each instruction
 ## Procedure
 
 ### Step 1 – Start a new machine
+<img width="1920" height="1080" alt="new-file" src="https://github.com/user-attachments/assets/33b71e1e-eabc-4485-9e7d-9bf30e47b997" />
 
 ### Step 2 – Create the registers
 <img width="1920" height="1080" alt="registers" src="https://github.com/user-attachments/assets/47fd6c0f-6ad8-4d9b-a104-9e43606f7de1" />
