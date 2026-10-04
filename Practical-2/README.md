@@ -72,7 +72,8 @@ A real processor performs IR ← M[AR] and PC ← PC + 1 on the same clock edge.
 
 ### 5
 <img width="1920" height="1080" alt="fifth" src="https://github.com/user-attachments/assets/665984d2-407b-4ace-88f9-138cc4f799a3" />
-### 5
+
+### end
 <img width="1920" height="1080" alt="sixth" src="https://github.com/user-attachments/assets/f0be4051-3ce1-450f-b109-484ca7f0fd66" />
 
 
