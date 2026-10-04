@@ -7,7 +7,7 @@ To create, in CPU Sim, a machine based on the Basic Computer architecture: its r
 CPU Sim 4.0.11 (Java 8 with JavaFX)
 
 ## Machine
-`BasicComputer.cpu` – Mano's Basic Computer
+Machine file: [BasicComputer_new.cpu](BasicComputer_new.cpu)
 
 ## Theory
 A CPU Sim machine is described at the register-transfer level by four kinds of objects:
@@ -67,4 +67,4 @@ A control unit that runs a stored list of microinstructions for each instruction
 
 
 ## Result
-A machine based on the Basic Computer architecture was created in CPU Sim and saved.
+A machine based on the Basic Computer architecture was created in CPU Sim and saved as `BasicComputer_new.cpu`
