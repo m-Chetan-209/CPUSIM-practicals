@@ -1,0 +1,21 @@
+; ==============================================================
+; Practical 6 : Memory-reference instructions ADD, LDA, STA, BUN, ISZ
+; Machine : BasicComputer.cpu (Mano's Basic Computer)
+;
+; Task : multiply X by N using repeated addition.
+;        PROD = X + X + ... + X   (N times)
+;        CTR holds -N; ISZ adds 1 to it on every pass and
+;        skips the BUN when it reaches 0, ending the loop.
+; Data : X = 5, N = 3 (CTR = -3)  ->  PROD = 15
+; ==============================================================
+LOOP:   LDA PROD        ; AC <- M[PROD]
+        ADD X           ; AC <- AC + M[X]
+        STA PROD        ; M[PROD] <- AC
+        ISZ CTR         ; M[CTR] <- M[CTR] + 1; skip next if it became 0
+        BUN LOOP        ; PC <- LOOP (repeat)
+        LDA PROD        ; AC <- final product
+        HLT
+
+X:      .data 1 5       ; multiplicand
+CTR:    .data 1 -3      ; -N (loop counter)
+PROD:   .data 1 0       ; product
