@@ -4,6 +4,8 @@
 ### **Roll No:** 26570018
 ### **Course:** B.Sc Computer Science, Ramanujan College DU
 
+<<<<THIS REPOSITORY CONTAINS ALL 11 PRACTICALS FROM THE GIVEN LAB MANUAL.>>>>
+
 1. [Practical 1: Create a Machine](Practical-01/)
 2. [Practical 2: Create the Fetch Routine of the Instruction Cycle](Practical-2/)
 3. [Practical 3: ADD Operation on Two User-entered Numbers](Practical-3/)
