@@ -59,6 +59,9 @@ A real processor performs IR ← M[AR] and PC ← PC + 1 on the same clock edge.
 | 5 | `decode-IR` | 2048 | 1 | 63488 → INP |
 
 ### 1
+<img width="1920" height="1080" alt="debug-mode-first-stepby" src="https://github.com/user-attachments/assets/9a562d5c-5180-4b15-aeb8-10e33a958c78" />
+
+### 2
 <img width="1920" height="1080" alt="second-stepby" src="https://github.com/user-attachments/assets/248709aa-b2b9-49a6-b236-ce3c36087c36" />
 ### 2
 <img width="1920" height="1080" alt="third" src="https://github.com/user-attachments/assets/19bc19ea-82d4-4f3f-a38b-63f20be6bcb3" />
